@@ -1,4 +1,7 @@
-def compare_triplets(arr1, arr2):
+from typing import List
+
+
+def compare_triplets(arr1: List, arr2: List):
     points = [0, 0]
     for i in range(len(arr1)):
         if arr1[i] > arr2[i]:
